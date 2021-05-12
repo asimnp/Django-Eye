@@ -3,6 +3,7 @@
 
 # virtual environment
 venv
+venv_djangoeye
 
 db.sqlite3
 
