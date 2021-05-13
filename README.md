@@ -36,7 +36,7 @@ Create new postgresql database and add credentials into .env file.
 ```
 **Run Django Server**
 ```shell
-$ python manage.py runserver
+$ python manage.py runserver --settings=root.settings.development
 ```
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome!
