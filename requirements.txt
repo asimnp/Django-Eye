@@ -1,5 +1,6 @@
 asgiref==3.3.4
 Django==3.2.3
+django-debug-toolbar==3.2.1
 marshmallow==3.12.1
 psycopg2-binary==2.8.6
 python-decouple==3.4
