@@ -34,6 +34,11 @@ $ python manage.py shell
 ```
 Create new postgresql database and add credentials into .env file.
 ```
+**Migrate**
+```shell
+$ python manage.py migrate --settings=root.settings.development
+```
+
 **Run Django Server**
 ```shell
 $ python manage.py runserver --settings=root.settings.development
