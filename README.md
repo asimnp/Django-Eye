@@ -58,7 +58,7 @@ USER_DEFINE_APPS = [
 - Change the app name to:
     > name = 'apps.<your_app_name>'
 
-**For production `:exclamation:`**
+**For production :exclamation:**
 - Go to manage.py file and change settings file to production: 
   > *roots.settings.development*
   
