@@ -43,6 +43,26 @@ $ python manage.py migrate --settings=root.settings.development
 ```shell
 $ python manage.py runserver --settings=root.settings.development
 ```
+
+**Create a new app**
+```shell
+$ cd apps
+$ django-admin startpp <your_app_name>
+```
+
+**Register a newly created app**
+- Go to [roots/settings/base.py](https://github.com/alex1the1great/Django-Eye/blob/master/root/settings/base.py)
+```python
+USER_DEFINE_APPS = [
+    'apps.<your_app_name>.apps.<your_app_name>Config',
+]
+```
+
+- Go to apps/<your_app>/apps.py
+- Change the app name to:
+    > name = 'apps.<your_app_name>'
+
+
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome!
 ## ⭐️ Support
