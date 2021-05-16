@@ -34,14 +34,10 @@ $ python manage.py shell
 ```
 Create new postgresql database and add credentials into .env file.
 ```
-**Migrate**
+**Migrate and run Django server**
 ```shell
-$ python manage.py migrate --settings=root.settings.development
-```
-
-**Run Django Server**
-```shell
-$ python manage.py runserver --settings=root.settings.development
+$ python manage.py migrate
+$ python manage.py runserver
 ```
 
 **Create a new app**
@@ -62,6 +58,11 @@ USER_DEFINE_APPS = [
 - Change the app name to:
     > name = 'apps.<your_app_name>'
 
+**For production `:exclamation:`**
+- Go to manage.py file and change settings file to production: 
+  > *roots.settings.development*
+  
+  > *roots.settings.production*
 
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome!
