@@ -40,6 +40,16 @@ Create new postgresql database and add credentials into .env file.
 $ python manage.py migrate
 $ python manage.py runserver
 ```
+**Delete .git directory**
+```shell
+$ rm -rf .git
+```
+**Create a new git repository**
+```shell
+$ git init
+$ git add .
+$ git commit -m "Initial setup"
+```
 
 **Create a new app**
 ```shell
