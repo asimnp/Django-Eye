@@ -4,8 +4,9 @@
 ## Installation
 Django Eye can be installed via Pip or Pipenv. To start, clone the repository to your local computer.
 ```shell
-$ git clone https://github.com/alex1the1great/Django-Eye.git
-$ cd Django-Eye
+$ mkdir <your_directory_name>
+$ cd <your_directory>
+$ git clone https://github.com/alex1the1great/Django-Eye.git .
 $ touch .env
 $ cp .env.template .env
 ```
