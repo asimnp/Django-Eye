@@ -54,7 +54,7 @@ $ git commit -m "Initial setup"
 **Create a new app**
 ```shell
 $ cd apps
-$ django-admin startpp <your_app_name>
+$ django-admin startapp <your_app_name>
 ```
 
 **Register a newly created app**
