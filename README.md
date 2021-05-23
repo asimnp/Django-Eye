@@ -68,6 +68,10 @@ USER_DEFINE_APPS = [
 - Go to apps/<your_app>/apps.py
 - Change the app name to:
     > name = 'apps.<your_app_name>'
+```shell
+$ cd ..
+$ python manage.py runserver
+```
 
 **For production :exclamation:**
 - Go to manage.py file and change settings file to production: 
