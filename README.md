@@ -60,7 +60,7 @@ $ django-admin startapp <your_app_name>
 **Register a newly created app**
 - Go to [roots/settings/base.py](https://github.com/alex1the1great/Django-Eye/blob/master/root/settings/base.py)
 ```python
-USER_DEFINE_APPS = [
+INSTALLED_APPS = [
     'apps.<your_app_name>.apps.<your_app_name>Config',
 ]
 ```
