@@ -25,7 +25,8 @@ SECRET_KEY = config('DJANGO_SECRET_KEY')
 
 # Application definition
 
-BUILT_IN_APPS = [
+INSTALLED_APPS = [
+    # Built-in
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -33,12 +34,6 @@ BUILT_IN_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
-
-USER_DEFINE_APPS = []
-
-THIRD_PARTY_APPS = []
-
-INSTALLED_APPS = BUILT_IN_APPS + USER_DEFINE_APPS + THIRD_PARTY_APPS
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
