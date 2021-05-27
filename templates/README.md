@@ -1,0 +1,1 @@
+**Git does not track empty directory so there is a README.md file. You can delete this file and add your apps templates.**
