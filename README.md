@@ -41,7 +41,7 @@ $ python manage.py migrate
 $ python manage.py runserver
 ```
 
-**Empty README.md file**
+**Empty *README.md* file**
 
 **Delete .git directory**
 ```shell
@@ -61,14 +61,14 @@ $ django-admin startapp <your_app_name>
 ```
 
 **Register a newly created app**
-- Go to [roots/settings/base.py](https://github.com/alex1the1great/Django-Eye/blob/master/root/settings/base.py)
+- Go to *[roots/settings/base.py](https://github.com/alex1the1great/Django-Eye/blob/master/root/settings/base.py)*
 ```python
 INSTALLED_APPS = [
     'apps.<your_app_name>.apps.<your_app_name>Config',
 ]
 ```
 
-- Go to apps/<your_app>/apps.py
+- Go to *apps/<your_app>/apps.py*
 - Change the app name to:
     > name = 'apps.<your_app_name>'
 ```shell
@@ -77,7 +77,7 @@ $ python manage.py runserver
 ```
 
 **For production :exclamation:**
-- Go to manage.py file and change settings file to production: 
+- Go to *manage.py* file and change settings file to production: 
   > *roots.settings.development*
   
   > *roots.settings.production*
