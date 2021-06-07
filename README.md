@@ -27,8 +27,8 @@ $ pipenv shell
 **Django new secret key**
 ```shell
 $ python manage.py shell
->>> from django.utils.cyrpto import get_random_string
->>> get_random_string(80)
+>>> from django.core.management.utils import get_random_secret_key
+>>> get_random_secret_key()
 # copy the secret key and assign it to DJANGO_SECRET_KEY
 ```
 **PostgreSQL setup**
@@ -40,6 +40,9 @@ Create new postgresql database and add credentials into .env file.
 $ python manage.py migrate
 $ python manage.py runserver
 ```
+
+**Empty README.md file**
+
 **Delete .git directory**
 ```shell
 $ rm -rf .git
