@@ -6,8 +6,8 @@ name = "pypi"
 [packages]
 django = "==3.2.3"
 psycopg2-binary = "==2.8.6"
-python-decouple = "==3.4"
 django-debug-toolbar = "==3.2.1"
+environs = {extras = ["django"], version = "*"}
 
 [dev-packages]
 
