@@ -41,7 +41,7 @@ $ python manage.py migrate
 $ python manage.py runserver
 ```
 
-**Empty *README.md* file**
+> **Empty *README.md* file**
 
 **Delete .git directory**
 ```shell
@@ -75,12 +75,6 @@ INSTALLED_APPS = [
 $ cd ..
 $ python manage.py runserver
 ```
-
-**For production :exclamation:**
-- Go to *manage.py* file and change settings file to production: 
-  > *roots.settings.development*
-  
-  > *roots.settings.production*
 
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome!
