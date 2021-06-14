@@ -53,7 +53,7 @@ $ git init
 $ git add .
 $ git commit -m "Initial setup"
 ```
-
+## Configuration
 **Create a new app**
 ```shell
 $ cd apps
