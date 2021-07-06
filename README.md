@@ -76,7 +76,14 @@ $ cd ..
 $ python manage.py runserver
 ```
 
-**Production :exclamation:**
+**Include Django app url in root.urls file**
+```shell
+urlpatterns = [
+    path('', include('apps.app_name.urls'))
+]
+```
+
+## Production :exclamation:
 - Add your own domain name in **ALLOWED HOSTS** list in .env file.
 - Change settings file to **'root.settings.production'**
 
