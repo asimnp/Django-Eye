@@ -1,4 +1,4 @@
-# Django Eye
+# Django Eye :zap:
 > Django starter project to build django project quickly with powerful tools.
 
 ## Installation
@@ -41,7 +41,7 @@ $ python manage.py migrate
 $ python manage.py runserver
 ```
 
-> **Empty *README.md* file**
+**Empty *README.md* file**
 
 **Delete .git directory**
 ```shell
@@ -75,6 +75,10 @@ INSTALLED_APPS = [
 $ cd ..
 $ python manage.py runserver
 ```
+
+**Production :exclamation:**
+- Add your own domain name in **ALLOWED HOSTS** list in .env file.
+- Change settings file to **'root.settings.production'**
 
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome!
