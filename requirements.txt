@@ -1,12 +1,1 @@
-asgiref==3.4.1
-dj-database-url==0.5.0
-dj-email-url==1.0.2
-Django==3.2.5
-django-cache-url==3.2.3
-django-debug-toolbar==3.2.1
-environs==9.3.2
-marshmallow==3.12.2
-psycopg2-binary==2.9.1
-python-dotenv==0.18.0
-pytz==2021.1
-sqlparse==0.4.1
+-r requirements/production.txt

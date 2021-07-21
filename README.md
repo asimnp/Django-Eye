@@ -11,15 +11,15 @@ $ touch .env
 $ cp .env.template .env
 ```
 
-
+## Development
 ### Pip
 ```shell
 $ python -m venv venv_djangoeye
 $ source venv_djangoeye/bin/activate
-$ pip install -r requirements.txt
+$ pip install -r requirements/development.txt
 ```
 
-### Pipenv
+### Pipenv (It will install all packages)
 ```shell
 $ pipenv install
 $ pipenv shell
